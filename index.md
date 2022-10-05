@@ -2,4 +2,4 @@
 layout: default
 ---
 
-# [Service Scanning](posts/another-page.html).
+# [Service Scanning](posts/another-page.html)
