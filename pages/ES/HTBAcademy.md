@@ -6,4 +6,4 @@ layout: default
 
 En este modulo cubriremos los fundamentales sobre el pentesting y haremos una introduccion a HTB.
 
-[Ir a la seleccion de seccion](.../indexES.md)
+[Ir a la seleccion de seccion](../indexES.md)
