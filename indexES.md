@@ -2,7 +2,7 @@
 layout: default
 ---
 
-###### [Tanslate to EN](./index.md)
+###### [Tanslate to english](./index.md)
 
 # [HTB Academy walkthroughs](pages/ES/HTBAcademy.md)
 
