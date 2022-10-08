@@ -1,5 +1,6 @@
 title: r0nn1nx0
-description: Website where I will upload HTB tutorials and things that catch my attention about CyberSec
+description: On this website I put together tutorials and documentation on HTB exercises, I am not a professional, I do this to improve my learning, any constructive criticism is welcome =)
+  En esta pagina web colagre tutoriales y documentacion sobre ejercicios de HTB, no soy ningun profesional esto lo hago para mejorar mi aprendizaje cualquier critica constructiva es bienvenida =)
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-slate
