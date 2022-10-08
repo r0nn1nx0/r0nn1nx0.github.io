@@ -6,4 +6,4 @@ layout: default
 
 This module covers the fundamentals of penetration testing and an introduction to Hack The Box.
 
-[Back to main section](.../index.md)
+[Back to main section](../../index.md)
