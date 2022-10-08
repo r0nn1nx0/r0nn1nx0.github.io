@@ -4,17 +4,16 @@ layout: default
 
 # Basic Tools
 ---
-Herramientas como SSH, NetCat, Tmux y Vim son esenciales y usadas para la mayoria de profesionales en el sector de la seguridad de la informacion. Aun que estas herramientas no estan pensadas como herramientas de penetracion, son muy importantes en el proceso de penetrar un sistemas, por ello tenemos que masterizarlas.
+Tools such as SSH, Netcat, Tmux, and Vim are essential and are used daily by most information security professionals. Although these tools are not intended to be penetration testing tools, they are critical to the penetration testing process, so we must master them.
 
-En este ejercicio nos piden extraer la bandera usando las herramientas que nos han enseñado en esta seccion, en este caso usaremos la herramienta NetCat para extraer la flag para resolver el ejercicio.
+In this exercise we are asked to extract the flag using the tools that we have been taught in this section, in this case we will use the NetCat tool to extract the flag to solve the exercise.
 
-![comando NetCat!](/assets/images/BasicTools/01.png "Comando NetCat para extraer la version del servicio del puerto indicado.")
+![NetCat command!](/assets/images/BasicTools/01.png "NetCat command to extract the service version from the specified port.")
 
 >Command structure:
 >
 >``netcat [TargetIP] [Port]``
 
-Como podemos ver en la captura usamos la herramienta NetCat poniendo la IP que queremos atacar conjunto con el puerto al que queremos acceder para que nos de como salida la version y el servicio que esta usando.
-
+As we can see in the screenshot we use the NetCat tool putting the IP that we want to attack together with the port we want to access so that it gives us as output the version and the service that is using.
 
 [Back to exercises section](../GettingStarted.md)
