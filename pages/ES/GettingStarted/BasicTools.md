@@ -14,4 +14,6 @@ En este ejercicio nos piden extraer la bandera usando las herramientas que nos h
 >
 >``netcat [IPObjetivo] [Puerto]``
 
+Como podemos ver en la captura usamos la herramienta NetCat poniendo la IP que queremos atacar conjunto con el puerto al que queremos acceder para que nos de como salida la version y el servicio que esta usando.
+
 [Ir a la seleccion de ejercicios](../GettingStarted.md)
