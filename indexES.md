@@ -2,7 +2,7 @@
 layout: default
 ---
 
-###### [EN](./indexEN.md)
+###### [EN](./index.md)
 
 # [HTB Academy walkthroughs](pages/ES/HTBAcademy.md)
 
