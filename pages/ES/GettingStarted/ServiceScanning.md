@@ -19,6 +19,8 @@ En este primer ejercicio nos hacen ejecutar un escaneo con nmap para poder averi
 >- -sC Flag para indicarle a nmap que puede usar scripts para conseguir mas informacion de cada puerto escaneado.
 >- -p [Puerto] Flag para escanear un puerto en especifico.
 
+>En este ejercicio podemos sustituir la flag -sC por -sV usando -sV para que solo nos enseñe la version del servicio.
+
 ![commando nmap!](/assets/images/ServiceScanning/1_02.png "Escaneo basico de un puerto en especifico con NMAP.")
 
 Como podemos ver con el escaneo nmap efectuado, como salida nos da de output el servicio, el estado del puerto que hemos escaneado y la version.
