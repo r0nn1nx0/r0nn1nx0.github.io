@@ -33,10 +33,9 @@ En el segundo ejercicio nos hacen ejecutar tambien un escaneo con nmap para aver
 
 >Estructura del comando y desglose:
 >
->``nmap -sV -sC -p- [IP]``
+>``nmap -sV -p- [IP]``
 >
 >- -sV Flag para que nos muestre la version del servicio utilizado en el puerto como output.
->- -sC Flag para indicarle a nmap que puede usar scripts para conseguir mas informacion de cada puerto escaneado.
 >- -p- Flag para escanear todos los puertos disponibles y averiguar los servicios que estan corriendo en ellos.
 
 ![commando nmap!](/assets/images/ServiceScanning/2_02.png "Resultado del escaneo anterior.")
