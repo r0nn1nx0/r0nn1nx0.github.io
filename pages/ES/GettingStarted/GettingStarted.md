@@ -14,4 +14,4 @@ En este modulo cubriremos los fundamentales sobre el pentesting y haremos una in
 
 
 
-[Back to modules section](./HTBAcademy.md)
+[Ir a la seleccion de ejercicios](./HTBAcademy.md)

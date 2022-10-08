@@ -12,4 +12,4 @@ layout: default
 
 
 
-[Back to modules section](./HTBAcademy.md)
+[Ir a la seleccion de modulos](./HTBAcademy.md)
