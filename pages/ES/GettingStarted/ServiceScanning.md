@@ -14,7 +14,7 @@ En este primer ejercicio nos hacen ejecutar un escaneo con nmap para poder averi
 
 >Estructura del comando y desglose:
 >
->``nmap -sC -p [Puerto] [IP]
+>``nmap -sC -p [Puerto] [IP]``
 >
 >- -sC Flag para indicarle a nmap que puede usar scripts para conseguir mas informacion de cada puerto escaneado.
 >- -p [Puerto] Flag para escanear un puerto en especifico.
@@ -33,7 +33,7 @@ En el segundo ejercicio nos hacen ejecutar tambien un escaneo con nmap para aver
 
 >Estructura del comando y desglose:
 >
->``nmap -sV -sC -p- [IP]
+>``nmap -sV -sC -p- [IP]``
 >
 >- -sV Flag para que nos muestre la version del servicio utilizado en el puerto como output.
 >- -sC Flag para indicarle a nmap que puede usar scripts para conseguir mas informacion de cada puerto escaneado.
