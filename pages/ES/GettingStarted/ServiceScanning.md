@@ -79,9 +79,9 @@ Al intentar visualizar el contenido de esta carpeta con las credenciales bob:Wel
 
 >Comandos de interes:
 >
->- ls Comando para listar recursos.
->- cd Comando para navegar entre carpetas.
->- get Comando para descargar recursos.
+>- ls: Comando para listar recursos.
+>- cd: Comando para navegar entre carpetas.
+>- get: Comando para descargar recursos.
 
 ![exploracion de recursos!](/assets/images/ServiceScanning/3_04.png "Exploracion de un recurso y descarga de archivos.")
 
