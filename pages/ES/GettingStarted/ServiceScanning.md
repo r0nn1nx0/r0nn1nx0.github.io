@@ -71,7 +71,7 @@ Al intentar visualizar el contenido del recurso nos deniega el acceso, vamos a p
 
 >Estructura del comando y desglose:
 >
->``smbclient -U [User] \\\\[IP]\\[RecursoCompartido]`
+>``smbclient -U [User] \\\\[IP]\\[RecursoCompartido]``
 >
 >- -U Flag para especificar que quieres logearte con un usuario en especifico a un recurso.
 
