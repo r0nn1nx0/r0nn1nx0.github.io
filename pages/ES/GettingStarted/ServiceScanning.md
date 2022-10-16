@@ -87,8 +87,8 @@ Al intentar visualizar el contenido de esta carpeta con las credenciales bob:Wel
 
 Conseguimos localizar nuestro archivo de interes flag.txt navegando un poco por el recurso compartido.
 
-Una vez descargado miramos el interior con la herramienta para visualizar archivos de txt que queramos y ya tendriamos nuestra flag para reoslver el ejercicio.
-
 ![flag obtenida!](/assets/images/ServiceScanning/3_05.png "Visualizacion de flag para resolver el ejercicio.")
+
+Una vez descargado miramos el interior con la herramienta para visualizar archivos de txt que queramos y ya tendriamos nuestra flag para reoslver el ejercicio.
 
 [Ir a la seleccion de ejercicios](../GettingStarted.md)
