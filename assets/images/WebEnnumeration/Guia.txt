@@ -1,0 +1,6 @@
+01 usamos gobuster dir con el diccionario common.txt para hacer un escaneo de todos los recursos tipicos que contiene nuestro objetivo
+Explicar que es robots.txt
+02 Econtramos un archivo php que contiene una pagina de un login a nivel de adminsitrador
+03 Buscamos en el codigo fuente algun comentario con credenciales o algo que podamos explotar CTRL + U Para ver el codigo fuente de la pagina
+04 Intentamos logear con las credenciales de prueba que encontramos en el codigo fuente de la pagina
+05 Encontramos la banner para resolver el ejercicio 
