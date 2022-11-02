@@ -1,0 +1,6 @@
+01 Enumeracion de puertos con nmap
+02 Posibles vias de explotacion para conseguir acceso al servidor
+03 Usamos metaesploit para conseguir acceso a la maquina y escalar privilegios
+04 Conseguimos acceso a la maquina configurando el exploit y conseguimos la primera flag
+05 Escalamos privilegios por una mala configuracion de permisos del sistema
+06 Conseguimos acceso root y por ende la ultima bandera
