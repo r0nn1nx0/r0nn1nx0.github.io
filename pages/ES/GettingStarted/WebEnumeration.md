@@ -16,6 +16,10 @@ Usamos la herramienta gobuster con un diccionario con los nombres de directorios
 
 Una vez el escaneo termina tendremos listados los directorios que tenemos disponibles en el servidor web. Echándole un vistazo por encima vemos que el servidor tiene un archivo robots.txt que puede contener información relevante en nuestro proceso de enumeración.
 
+>El estándar de exclusión de robots, también conocido como el protocolo de la exclusión de robots o protocolo de robots.txt, es un método para evitar que ciertos bots que analizan los sitios web u otros robots que investigan todo o una parte del acceso de un sitio Web, público o privado, agreguen información innecesaria a los resultados de búsqueda. Los robots son de uso frecuente por los motores de búsqueda para categorizar archivos de los sitios Webs, o por los webmasters para corregir o filtrar el código fuente.
+>
+>[Fuente](https://es.wikipedia.org/wiki/Est%C3%A1ndar_de_exclusi%C3%B3n_de_robots)
+
 Procedemos a mirar el contenido del archivo robots.txt y vemos que tenemos un archivo PHP llamado admin-login-page.php que podría hacer referencia al panel de inicio de sesión de un usuario administrador del sistema.
 
 ![contenido del archivo robots.txt!](/assets/images/WebEnnumeration/02.png "Visualización del contenido del archivo robots.txt")
@@ -25,6 +29,8 @@ Al cargar la página vemos un panel de inicio de sesión de administrador que a 
 ![panel de administrador!](/assets/images/WebEnnumeration/04.png "Panel de administrador")
 
 Si echamos un vistazo al código fuente de la página podemos ver que el que la ha programado se ha dejado en los comentarios unas credenciales de acceso de administrador que podríamos probar de usar para acceder en el panel anteriormente mencionado.
+
+>Para ver el código fuente de una página podemos usar la combinación de teclas CTRL + U.
 
 ![código fuente de la página admin-login-page.php!](/assets/images/WebEnnumeration/03.png "Visualización del código fuente de panel de acceso que hemos encontrado en el archivo robots.txt")
 
