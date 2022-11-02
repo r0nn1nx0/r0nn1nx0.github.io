@@ -20,9 +20,11 @@ Procedemos a mirar el contenido del archivo robots.txt y vemos que tenemos un ar
 
 ![contenido del archivo robots.txt!](/assets/images/WebEnnumeration/02.png "Visualización del contenido del archivo robots.txt")
 
+Al cargar la página vemos un panel de inicio de sesión de administrador que a simple vista no podríamos hacer nada con él, ya que no tenemos ningún tipo de credenciales para probar.
+
 ![panel de administrador!](/assets/images/WebEnnumeration/04.png "Panel de administrador")
 
-Al cargar la página vemos un panel de inicio de sesión de administrador que a simple vista no podríamos hacer nada con él, pero si echamos un vistazo al código fuente de la página podemos ver que el que la ha programado se ha dejado en los comentarios unas credenciales de acceso de administrador que podríamos probar de usar para acceder en el panel anteriormente mencionado.
+Si echamos un vistazo al código fuente de la página podemos ver que el que la ha programado se ha dejado en los comentarios unas credenciales de acceso de administrador que podríamos probar de usar para acceder en el panel anteriormente mencionado.
 
 ![código fuente de la página admin-login-page.php!](/assets/images/WebEnnumeration/03.png "Visualización del código fuente de panel de acceso que hemos encontrado en el archivo robots.txt")
 
