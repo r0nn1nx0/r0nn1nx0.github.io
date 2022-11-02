@@ -10,10 +10,6 @@ En este ejercicio nos piden extraer la bandera usando las herramientas que nos h
 
 ![comando NetCat!](/assets/images/BasicTools/01.png "Comando NetCat para extraer la versión del servicio del puerto indicado.")
 
->Estructura del comando:
->
->``netcat [IPObjetivo] [Puerto]``
-
 Como podemos ver en la captura usamos la herramienta NetCat poniendo la IP que queremos atacar conjunto con el puerto al que queremos acceder para que nos dé como salida la versión y el servicio que está usando.
 
 [Ir a la selección de ejercicios](../GettingStarted.md)

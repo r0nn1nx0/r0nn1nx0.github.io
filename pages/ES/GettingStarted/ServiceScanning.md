@@ -12,13 +12,6 @@ En este primer ejercicio nos hacen ejecutar un escaneo con nmap para poder averi
 
 ![comando nmap!](/assets/images/ServiceScanning/1_01.png "Escaneo básico de un puerto en específico con NMAP.")
 
->Estructura del comando y desglose:
->
->``nmap -sC -p [Puerto] [IP]``
->
->- -sC Flag para indicarle a nmap que puede usar scripts para conseguir más información de cada puerto escaneado.
->- -p [Puerto] Flag para escanear un puerto en específico.
-
 En este ejercicio podemos sustituir la flag -sC por -sV usando -sV para que solo nos enseñe la versión del servicio.
 
 ![comando nmap!](/assets/images/ServiceScanning/1_02.png "Escaneo básico de un puerto en específico con NMAP.")
@@ -30,13 +23,6 @@ Como podemos ver con el escaneo nmap efectuado, como salida nos da de output el 
 En el segundo ejercicio nos hacen ejecutar también un escaneo con nmap para averiguar en este caso en que puerto está corriendo el servicio telnet.
 
 ![comando nmap!](/assets/images/ServiceScanning/2_01.png "Escaneo completo de todos los puertos para averiguar en que puerto esta ejecutándose el servicio telnet.")
-
->Estructura del comando y desglose:
->
->``nmap -sV -p- [IP]``
->
->- -sV Flag para que nos muestre la versión del servicio utilizado en el puerto como output.
->- -p- Flag para escanear todos los puertos disponibles y averiguar los servicios que están corriendo en ellos.
 
 ![comando nmap!](/assets/images/ServiceScanning/2_02.png "Resultado del escaneo anterior.")
 
@@ -50,30 +36,13 @@ Como primer paso intentaremos hacer una lista de los recursos compartidos para v
 
 ![comando smb recursos!](/assets/images/ServiceScanning/3_01.png "Listado de recursos compartidos.")
 
->Estructura del comando y desglose:
->
->``smbclient -N -L \\\\[IP]``
->
->- -N Flag utilizada para omitir el inicio de sesión con password.
->- -L Flag usada para mostrar los recursos compartidos de host destino.
-
 Vemos que hay una carpeta compartida llamada ''users'', vamos a intentar visualizar lo que tenemos dentro.
 
 ![comando smb login!](/assets/images/ServiceScanning/3_02.png "Inicio de sesión sin usuario en un recurso compartido en específico.")
 
->Estructura del comando y desglose:
->
->``smbclient \\\\[IP]\\[RecursoCompartido]``
-
 Al intentar visualizar el contenido del recurso nos deniega el acceso, vamos a probar a visualizarlo con el usuario que nos han proporcionado en el enunciado del ejercicio.
 
 ![comando smb login!](/assets/images/ServiceScanning/3_03.png "Inicio de sesión a un recurso con un usuario en específico.")
-
->Estructura del comando y desglose:
->
->``smbclient -U [User] \\\\[IP]\\[RecursoCompartido]``
->
->- -U Flag para especificar que quieres iniciarte sesión con un usuario en específico a un recurso.
 
 Al intentar visualizar el contenido de esta carpeta con las credenciales bob:Welcome1 podemos ver que nos permite ver el interior de este recurso.
 
