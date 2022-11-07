@@ -24,4 +24,5 @@
 
 07 Firewall and IDS/IPS Evasion - Hard
 
-	
+	sudo nmap <Target IP> -p- -sS -Pn -n --disable-arp-ping --packet-trace
+	sudo ncat -nv --source-port 53 <Target IP> <Target Port>
