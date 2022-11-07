@@ -4,7 +4,7 @@ layout: default
 
 If you have any questions or concerns feel free to contact: [r0nn1nx0](https://twitter.com/r0nn1nx0)
 
-###### [Translate to english](./index.md)
+###### [Taducir al español](./index.md)
 
 # [HTB Academy walkthroughs](pages/EN/HTBAcademy.md)
 
