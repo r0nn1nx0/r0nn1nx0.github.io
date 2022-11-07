@@ -1,0 +1,27 @@
+01 Host and Port Scanning
+
+	nmap -p- --open -O <Target IP>
+
+02 Saving the results
+
+	nmap -p- --open -oA AllPorts <TargetIP>
+
+03 Service Enumeration
+
+	nmap -p- --open -sV <TargetIP>
+
+04 Nmap Scripting Engine
+
+	nmap -p 80 --open --script http-enum <Target IP>
+
+05 Firewall and IDS/IPS Evasion - Easy
+
+	nmap -O -sn <Target IP>
+
+06 Firewall and IDS/IPS Evasion - Medium
+	
+	nmap -p 80 --script dns-nsid <TargetIP>
+
+07 Firewall and IDS/IPS Evasion - Hard
+
+	
